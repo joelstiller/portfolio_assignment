@@ -1,0 +1,124 @@
+/* Standard css reset */
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+ }
+body {
+    width:970px;
+}
+.header {
+    background: white;
+    height:55px;
+}
+    .top_left_img {
+        margin:20px;
+        vertical-align: top;
+        display:inline-block;
+        width:375px;
+        height:250px;
+        border: 5px solid lightgrey;
+    }
+        .myphoto {
+            height:100%;
+            width:100%;
+            display:block;
+        }
+    .about {
+        margin:20px;
+        vertical-align: top;
+        display:inline-block;
+        width:500px;
+        height:260px; 
+        background: linear-gradient(to right, white,#DED1DD);
+    }
+        .about p {
+            margin:10px;
+            
+        }
+        .about a {
+            margin:10px;
+        }
+        .about h3{
+            display:block;
+            background: linear-gradient(#B7B7BA, #878593, #A9A9AE);
+            color:white;
+            height:35px;
+            padding:10px 0px 0px 15px;
+        }
+    .title_name {
+        display:inline-block;
+        width:470px;
+        font-size:32px;
+        height:50px;
+        font-family: Comic Sans MS;
+        font-weight:Bold;
+        padding:0px 0px 10px 20px;
+    }
+    .tagline {
+        display:inline-block;
+        text-align:center;
+        width:470px;
+        font-size:24px;
+        height:50px;
+        vertical-align: top;
+        font-weight:bold;
+        padding-top:10px;
+    }
+.wrapper {
+    background: #4F333E;
+}
+.lower_content {
+    vertical-align: top;
+    width:286px;
+    display:inline-block;
+    margin:20px 10px 0px 20px;
+    padding-bottom:20px;
+}
+    .lower_img{
+        height:150px;
+        width:100%;
+        display:block;
+    }
+    .lower_content h2 {
+        display:block;
+        background: linear-gradient(#B7B7BA, #878593, #A9A9AE);
+        color:white;
+        padding: 5px;
+        font-size:20px;
+    }
+    .lower_text {
+        display:block;
+        height:150px;
+        padding-bottom:40px;
+        background: linear-gradient(to right, white,#DED1DD);
+    }
+    .pcont {
+        font-size:14px;
+        padding: 15px;
+        word-wrap:break-word;
+        width:260px;
+    }
+    .image_spam {
+        background: linear-gradient(to right, white,#DED1DD);
+    }
+    .tinyimg {
+        height:40px;
+        width:40px;
+        display: inline-block;
+        margin:5px;
+    }
+    .sitelink {
+        display:block;
+        height:50px;
+        background: linear-gradient(to right, white,#DED1DD);
+        text-align:center;
+    }
+    .button {
+        height:30px;
+        width:80px;
+        margin-top:10px;
+        color:white;
+        background:#407D61;
+        border-radius:10px;
+    }
