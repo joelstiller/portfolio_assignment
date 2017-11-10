@@ -7,7 +7,6 @@
 body {
     width:970px;
     margin-left:50px;
-    background-color:#245076;
 }
 .inline {
     display:inline-block;
@@ -21,9 +20,13 @@ body {
 .whitetext {
     color:white;
 }
-
-#header {
+.yellowtext {
+    color:#ffd52e;
+}
+.standard_background {
     background-color:#245076;
+}
+#header {
     height:150px;
 }
     #right_header {
@@ -39,11 +42,25 @@ body {
         height:60px;
         border-radius:15px;
         margin-left:20px;
+        text-align: center;
     }
+        #searchbar {
+            height:30px;
+            margin: 10px 0 0 5px;
+            text-align:center;
+        }
+        #gobutton {
+            height:30px;
+            width:40px;
+            border-radius: 5px;
+        }
     #addborder {
         padding: 0px 5px 0px 5px;
         border-right: 1px solid black;
     }
+#shift_right_wrapper{
+    margin-left:70px;
+}
 #menubar {
     background-color: #467ead;
     width:800px;
@@ -57,20 +74,80 @@ body {
         padding:10px;
     }
 #content {
-    background-color:#245076;
-    text-align:center;
     margin:15px;
     font-size:22px;
 }
-    #content ul {
+    #leftul{
         list-style:none;
         padding: 2px;
+        text-align:center;
     }
-    #content ul li:before {
+    #leftul li:before {
         color: yellow;
         font-size: 10px;
         content: '\226B';
     }
-    #content ul li {
+    #leftul li {
         padding:5px;
+    }
+    #toptext {
+        font-size:14px;
+        text-align:center;
+        margin:10px 0px 10px 40px;
+    }
+    #right_content {
+        width:575px;        
+    }
+    #bottomtext {
+        list-style:none;
+        text-align:center;
+        margin: 10px 0 0 125px;
+        padding: 5px;
+    }
+    #bottomtext li {
+        padding: 5px;
+        font-style:italic;
+    }
+#whitebar {
+    height:225px;
+    border-top: 4px solid #193853;
+    background-color:white;
+}
+.sidebyside {
+    text-align:center;
+    margin:10px;
+    border-top: 5px solid #73a7d5;
+    width:375px;
+    padding: 5px 5px 5px 20px;
+}
+    .sidebyside a {
+        text-decoration: none;
+        color: #88b4db;
+    }
+    .sidebyside ul li {
+        list-style-type: square;
+        margin-left:20px;
+    }
+
+    #getstarted {
+        margin-left: 70px;
+    }
+#footer {
+    height:100px;
+}
+    #footer ul li {
+        list-style:none;
+        text-align:center;
+        font-size:22px;
+        padding: 3px;
+        margin: 30px 0 0 75px;
+    }
+    #footer a {
+        color:#7aadda;
+        text-decoration: none;
+    }
+    #footer p {
+        font-size:10px;
+        text-align:center;
+        margin:15px 0 0 400px;
     }

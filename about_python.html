@@ -7,21 +7,21 @@
     <title>About Python</title>
     <link rel="stylesheet" href="python_style.css">
 </head>
-<body>
-    <div id="header">
+<body class="standard_background">
+    <div id="header" class="standard_background">
         <img src="images/python_logo.png" alt="Image cannot be displayed" class="titleimg">
         <div id="right_header" class="aligntop inline whitetext">
             <p id="textsize" class="inline">Text Size:</p>
-            <a id="addborder" href="">Normal</a>
-            <a class="aligntop inline blacktext"href="">Larger</a>
+            <a id="addborder" class="yellowtext" href="">Normal</a>
+            <a class="aligntop inline yellowtext" href="">Larger</a>
             <form id="search_area">
                 <input type="text" name="searchbar" id="searchbar" placeholder="Search">
-                <input type="button" value="GO" id="gobutton">
+                <input type="button" value="GO" id="gobutton" class="whitetext standard_background">
             </form>
         </div>
     </div>
-    <div id="menubar" class="whitetext">
-        <ul>
+    <div id="shift_right_wrapper">
+        <ul id="menubar" class="whitetext inline">
             <li class="inline">About</li>
             <li class="inline">Downloads</li>
             <li class="inline">Documentation</li>
@@ -29,34 +29,66 @@
             <li class="inline">News</li>
             <li class="inline">Events</li>
         </ul>
+        <div id="content" class="inline whitetext standard_background">
+            <ul id="leftul" class="inline">
+                <li><a href="" class="whitetext">Docs</a></li>
+                <li><a href="" class="whitetext">Audio/Visual Talks</a></li>
+                <li><a href="" class="whitetext">Beginner's Guide</a></li>
+                <li><a href="" class="whitetext">Developer's Guide</a></li>
+                <li><a href="" class="whitetext">PEP Index</a></li>
+                <li><a href="" class="whitetext">Python Books</a></li>
+                <li><a href="" class="whitetext">FAQ</a></li>
+            </ul>
+            <div id="right_content" class="inline aligntop">
+                <p id="toptext" class="whitetext aligntop inline">
+                    First appearing in 1991, Python is a general-purpose, high-level, interpreted programming language whose design focus emphasizes code readability.
+                    Whether for processing/analyzing data to powering many well-known applications, Python is not only a great language for new programmers but also
+                    powerful enough for seasoned developers building whatever they can think of.
+                </p>
+                <ul id="bottomtext" class="aligntop inline">
+                    <li class="yellowtext">Beauitful is better than ugly;</li>
+                    <li class="yellowtext">Explicit is better than implicit;</li>
+                    <li class="yellowtext">Simple is better than complex;</li>
+                    <li class="yellowtext">Complex is better than complicated;</li>
+                    <li class="yellowtext">Readability counts;</li>
+                    <li class="whitetext">The Zen of Python</li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <div id="content" class="inline whitetext">
+    <div id="whitebar" class="aligntop">
+        <div id="getstarted" class="sidebyside inline aligntop blacktext">
+            <h4>Getting Started</h4>
+            <p>Python can be easy to pick up whether you're a first time programmer or you're experienced with other languages.
+                The following pages are a useful first step to get on your way writing programs with Python!
+            </p>
+            <ul>
+                <li><a href="">Beginner's Guide, Programmers</a></li>
+                <li><a href="">Beginner's Guide, Non-programmers</a></li>
+                <li><a href="">Code sample and snippets for Beginners</a></li>
+            </ul>
+        </div>
+        <div class="sidebyside inline aligntop blacktext">
+            <h4>Applications</h4>
+            <p>The <a href="">Python Package Index (PyPI)</a> hosts thousands of third-party modules for Python. Both Python's standard library
+            and the community-contibuted modules allow for endless possibilities.
+            </p>
+            <ul>
+                <li><a href="">Web and Internet Development</a></li>
+                <li><a href="">Database Access</a></li>
+                <li><a href="">Desktop GUIs</a></li>
+                <li><a href="">Network programming</a></li>
+                <li><a href="">Software and Game Development</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="footer" class="aligntop standard_background">
         <ul>
-            <li><a href="" class="whitetext">Docs</a></li>
-            <li><a href="" class="whitetext">Audio/Visual Talks</a></li>
-            <li><a href="" class="whitetext">Beginner's Guide</a></li>
-            <li><a href="" class="whitetext">Developer's Guide</a></li>
-            <li><a href="" class="whitetext">PEP Index</a></li>
-            <li><a href="" class="whitetext">Python Books</a></li>
-            <li><a href="" class="whitetext">FAQ</a></li>
+            <li class="inline aligntop"><a href="">Help and General Contact</a></li>
+            <li class="inline aligntop"><a href="">Diversity Initatives</a></li>
+            <li class="inline aligntop"><a href="">Submit Website Bugs</a></li>
         </ul>
-
-        <div class="toptext">
-
-        </div>
-        <div class="bottomtext">
-
-        </div>
-
-    </div>
-    <div class="getstarted">
-
-    </div>
-    <div class="apps">
-
-    </div>
-    <div class="footer">
-
+        <p class="inline aligntop whitetext">Copyright ©2001-2016</p>
     </div>
 </body>
 </html>
