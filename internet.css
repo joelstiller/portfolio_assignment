@@ -1,0 +1,200 @@
+/* Standard css reset */
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+ }
+#wrapper {
+    width:970px;
+    margin-left:50px;
+    color:black;
+}
+.inline {
+    display:inline-block;
+}
+.atop {
+    vertical-align:top;
+}
+.lbtext {
+    text-decoration: none;
+    font-weight: bold;
+    color:#0097af;  
+}
+.dbtext {
+    color:#22649e;
+}
+.wtext {
+    color:white;
+}
+.bold_text {
+    font-weight: bold;
+}
+#header {
+    height:180px;
+}
+    #header img {
+        height:90px;
+        width:90px;
+        position: relative;
+        top: 25px;
+    }
+    #header h1 {
+        font-size:42px;
+    }
+    #header h2 {
+        height:50px;
+        font-size:32px;
+        font-weight:normal;
+        background: linear-gradient( #5182ac,#5182ac, #2a6aa0);
+        padding:15px 0px 0px 20px;
+    }
+#leftside {
+    width:240px;
+}
+    #red {
+        color:red;
+    }
+    #leftside p {
+        height:30px;
+        margin-bottom:10px;
+        font-size:18px;
+    }
+    #vidlink {
+        display:block;
+        height:30px;
+        border-radius: 10px;
+        text-align: center;
+        margin:40px 5px 5px 5px;
+        padding-top:10px;
+        background-color:#4883b4;
+        text-decoration: none;
+        font-size:20px;
+        box-shadow: 5px 5px 2px #414142;
+    }
+    #moreres {
+        display:block;
+        height:30px;
+        border-radius: 10px;
+        text-align: center;
+        margin:10px 5px 5px 5px;
+        padding-top:10px;
+        background-color:#ee911f;
+        text-decoration: none;
+        font-size:20px;
+        box-shadow: 5px 5px 2px #414142;
+    }
+    #ad_contain {
+        height:300px;
+        margin-top:30px;
+        padding-top:30px;
+        border-top: solid rgb(179, 173, 173);
+    }
+        #ad_back {
+            height:300px;
+            width:100%;
+        }
+        #ad_contain p {
+            position:relative;
+            margin:25px;
+            bottom:300px;
+            font-size:24px;
+            text-align:center;
+        }
+        #ninja {
+            position:relative;
+            height:100px;
+            bottom:260px;
+            left:75px;
+        }
+        #learn_more {
+            display:block;
+            position:relative;
+            height:30px;
+            width: 190px;
+            padding-top:8px;
+            bottom:250px;
+            left:25px;
+            background-color:#34c8e0;
+            text-decoration: none;
+            font-size:20px;
+            text-align: center;
+            box-shadow: 5px 5px 2px #414142;
+            border-radius: 5px;
+        }
+#rightside {
+    width:680px;
+    margin-left:43px;
+}
+    #tinyhouse {
+        width:30px;
+        height:30px;
+    }
+    #phone {
+        width:45px;
+        height:45px;
+        margin-left:370px;
+        margin-top:15px;
+    }
+    #dnslink {
+        text-decoration: none;
+        padding: 10px 0px 0px 5px;
+    }
+    #hours {
+        display:block;
+        text-align: center;
+        padding:3px;
+        font-size:12px;
+        color:grey;
+    }
+    #phonenum {
+        display:block;
+        text-align: center;
+        padding:3px;
+        font-size:28px;
+    }
+    #intnum {
+        display:block;
+        text-align: center;
+        padding:3px;
+        font-size:12px;
+        color:grey;
+    }
+    #clients {
+        margin-top:15px;
+        padding-top:20px;
+        border-top: 3px solid lightgrey;
+    }
+    #rightside h4 {
+        font-size:18px;
+        padding:5px 0px;
+    }
+    #rightside ul li {
+        margin-left:40px;
+        padding: 5px 0px 5px 10px;
+    }
+    #server {
+        height:115px;
+        margin: 10px 0px 10px 190px;
+    }
+    #rightside ol li {
+        margin-left:40px;
+        padding: 5px 0px 5px 10px;
+    }
+#footer {
+    height:150px;
+    margin-top:15px;
+    border-top: 5px solid #0085e0;
+    border-left: 5px solid #0085e0;
+    border-right: 5px solid #0085e0;
+}
+    #tricircle {
+        width:125px;
+        margin:10px;
+    }
+    #footwrap {
+        width:500px;
+        margin:10px;
+    }
+    #footwrap p {
+        padding-top:5px;
+    }
